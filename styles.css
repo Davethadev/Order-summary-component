@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+    display: block;
+    margin: 10% auto 0;
+    width: 320px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+#header-text {
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(22, 21, 21);
+}
+
+#description > p {
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+}
+
+.sub-link {
+    font-size: 12px;
+}
+
+.sub-link:active {
+    text-decoration: none;
+    color: blue;
+}
+
+#description {
+    padding: 30px 25px;
+}
+
+#card-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: hsl(225, 100%, 94%); */
+    /* background-color:  hsl(224, 23%, 55%); */
+    background-color: hsl(225, 100%, 98%);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#sub-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: -70px;
+    font-size: 14px;
+    gap: 4px;
+}
+
+.music-icon {
+    width: 15%;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+/* .price {
+    margin-left: -4px;
+} */
+
+button {
+    display: block;
+    margin: 25px auto 15px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 100%;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+button:active {
+    cursor: pointer;
+    background-color: hsl(245, 75%, 70%);
+}
+
+#cancel-link{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    color: hsl(224, 23%, 55%);
+}
+
+#cancel-link:active {
+    color: black;
+}
+
+@media(max-width: 760px) {
+    body {
+        margin-top: 20%;
+    }
+
+    #card-details {
+        margin-top: 25px;
+    }
+
+    .card {
+        padding-bottom: 5px;
+    }
+}
+
